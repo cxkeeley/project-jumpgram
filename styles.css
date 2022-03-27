@@ -24,7 +24,7 @@ body {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  color: var(--white-60);
+  color: var(--dark-desaturated-blue);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -59,12 +59,16 @@ h1 {
 
 h2 {
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 h2 span {
   color: hsl(300, 51%, 39%);
   text-decoration: underline;
+}
+
+h3 {
+  font-size: 16px;
 }
 
 p {
@@ -78,6 +82,8 @@ p {
   border-radius: 0.3rem;
   padding: 0.3rem 0.3rem;
   margin: 0.5rem auto;
+  color: var(--white-60);
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
 }
 
 .urgent-bar span {
@@ -95,7 +101,7 @@ p {
   outline: none;
   background: #f5f5f5;
   font-size: 16px;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
 }
 
 .submit-btn {
@@ -106,16 +112,16 @@ p {
   font-size: 20px;
   border: 1px solid #01baff;
   background: #01baff;
-  color: #fff;
+  color: var(--white-60);
   cursor: pointer;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
 }
 
 .card {
   max-width: 327px;
   margin: 3rem auto;
   margin-top: 0;
-  background-color: var(--dark-desaturated-blue);
+  background-color: var(--white-60);
   border-radius: 1rem;
   overflow: hidden;
   position: relative;
@@ -192,7 +198,12 @@ p {
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 20px;
+    text-align: center;
   }
 
   .urgent-bar {
@@ -229,7 +240,7 @@ p {
 
   .imgTwo {
     position: absolute;
-    top: 7.5%;
+    top: 5%;
     left: 50%;
     transform: translateX(11.5%);
     width: 300px;
