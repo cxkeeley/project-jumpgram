@@ -77,7 +77,7 @@ p {
   background-color: hsl(300, 51%, 39%);
   border-radius: 0.3rem;
   padding: 0.3rem 0.3rem;
-  margin: 0 auto;
+  margin: 0.5rem auto;
 }
 
 .urgent-bar span {
@@ -100,7 +100,7 @@ p {
 
 .submit-btn {
   text-align: center;
-  margin: 0.5rem auto;
+  margin: 1rem auto;
   padding: 1rem 2.5rem;
   border-radius: 2rem;
   font-size: 20px;
@@ -229,7 +229,7 @@ p {
 
   .imgTwo {
     position: absolute;
-    top: 9%;
+    top: 7.5%;
     left: 50%;
     transform: translateX(11.5%);
     width: 300px;
