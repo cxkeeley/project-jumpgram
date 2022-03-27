@@ -96,6 +96,7 @@ p {
 
 .input-text {
   border: 0;
+  width: 270px;
   margin: 1rem auto;
   padding: 1rem;
   outline: none;
