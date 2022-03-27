@@ -271,6 +271,7 @@ p {
 
   .input-text {
     margin: 1rem auto;
+    margin-top: 0;
     width: 330px;
   }
 }
