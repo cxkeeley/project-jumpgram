@@ -53,19 +53,39 @@ h1 {
   font-size: 1.3rem;
   font-weight: 700;
   line-height: 1.2;
-  margin-top: 0;
+  margin: 0;
   text-align: center;
 }
 
 h2 {
   text-align: center;
-  margin-bottom: 0.2rem;
   font-size: 16px;
 }
 
 h2 span {
   color: hsl(300, 51%, 39%);
   text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  margin: 0.5rem auto;
+  font-size: 12px;
+}
+
+.urgent-bar {
+  background-color: hsl(300, 51%, 39%);
+  border-radius: 0.3rem;
+  padding: 0.3rem 0.3rem;
+  margin: 0 auto;
+}
+
+.urgent-bar span {
+  color: red;
+  font-weight: 700;
+  background: #fff;
+  border-radius: 0.2rem;
+  padding: 0.1rem;
 }
 
 .input-text {
@@ -80,7 +100,7 @@ h2 span {
 
 .submit-btn {
   text-align: center;
-  margin: 1rem auto;
+  margin: 0.5rem auto;
   padding: 1rem 2.5rem;
   border-radius: 2rem;
   font-size: 20px;
@@ -171,6 +191,14 @@ h2 span {
     font-size: 2.25rem;
   }
 
+  h2 {
+    font-size: 24px;
+  }
+
+  .urgent-bar {
+    padding: 0.5rem 3rem;
+  }
+  
   .card {
     max-width: 1110px;
     display: grid;
@@ -201,7 +229,7 @@ h2 span {
 
   .imgTwo {
     position: absolute;
-    top: 3%;
+    top: 9%;
     left: 50%;
     transform: translateX(11.5%);
     width: 300px;
@@ -225,11 +253,7 @@ h2 span {
     color: #fff;
   }
 
-  h2 {
-    font-size: 24px;
-  }
-
   .input-text {
-    margin: 2rem 0;
+    margin: 1rem 0;
   }
 }
