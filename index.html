@@ -2,42 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-
     <title>Jumpgram-Grow Your Instagram</title>
     <meta name="description" content="Jumpgram-Grow Your Instagram" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
-      <main class="card">
-        <div class="card-image"></div>
-        <div class="card-body">
-          <h1>You've been selected!
-            Our team <span>loves</span> your Insta. We see potential.
-            Proceed below to gain access to Jumpgram.</h1>
+    <main class="card">
+      <div class="card-image imgOne">
+        <img src="./images/hand-image-p-1080.png" alt="" />
+      </div>
+      <div class="card-image imgTwo">
+        <img src="./images/ezgif-6-1c934664f723.gif" alt="" />
+      </div>
+      <div class="card-body">
+        <h1>You've been selected!</h1>
+        <h2>
+          Our team <span>loves</span> your <strong>Insta.</strong> <br />We see
+          potential. <br />
+          Proceed below to gain access to Jumpgram
+        </h2>
+        <input
+          type="text"
+          placeholder="Your @username"
+          value=""
+          name="prog_site"
+          id="prog_site"
+          class="input-text"
+        />
+        <!-- <div class="submit-btn">
+          <a href="https://jumpgram.co/" id="submitBtn">Get Access</a>
+        </div> -->
 
-          <input type="text" id="userName" placeholder="username" value="" />
-          <a href="https://jumpgram.co/" id="submitBtn" class="submit-btn">Send</a>
-        </div>
-      </main>
-    </div>
-
-    
-
-    <script>
-      document.getElementById('submitBtn').addEventListener('click', function () {
-        var i = document.getElementById('userName').value;
-        this.setAttribute('href', '/?user=' + i);
-      });
-    </script>
+        <input type="button" value="Get Access" class="submit-btn" onclick="window.location.replace('http://jumpgram.co/?user='+document.getElementById('prog_site').value); return true;"></input>
+      </div>
+    </main>
   </body>
 </html>
