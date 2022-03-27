@@ -62,10 +62,10 @@ h2 {
   font-size: 18px;
 }
 
-h2 span {
+/* h2 span {
   color: hsl(300, 51%, 39%);
   text-decoration: underline;
-}
+} */
 
 h3 {
   font-size: 16px;
