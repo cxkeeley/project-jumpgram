@@ -50,7 +50,7 @@ nav img {
 
 h1 {
   font-family: 'Nunito', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   font-weight: 700;
   line-height: 1.2;
   margin: 0;
@@ -192,7 +192,7 @@ p {
 
 @media (min-width: 1200px) {
   h1 {
-    font-size: 2.25rem;
+    font-size: 2.8rem;
   }
 
   h2 {
