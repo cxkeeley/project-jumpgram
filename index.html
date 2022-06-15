@@ -4,22 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon.png"
+    />
     <title>Jumpgram - Grow Your Instagram</title>
     <meta name="description" content="Jumpgram - Grow Your Instagram" />
     <link rel="stylesheet" href="styles.css" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="https://kit.fontawesome.com/3ee8568def.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/3ee8568def.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   </head>
   <body>
     <header>
       <nav>
-        <img src="./images/612e56a6c2b4c1db6cd963f4_NewProject500.png" alt="">
+        <img src="./images/612e56a6c2b4c1db6cd963f4_NewProject500.png" alt="" />
       </nav>
     </header>
     <main class="card">
-      <div class="card-image imgOne ">
+      <div class="card-image imgOne">
         <img src="./images/hand-image-p-1080.png" alt="" />
       </div>
       <div class="card-image imgTwo">
@@ -42,7 +50,9 @@
           id="prog_site"
           class="input-text"
         />
-        <p class="urgent-bar">Hurry Up! &nbsp<span>103</span> out of 120 spots taken</p>
+        <p class="urgent-bar">
+          Hurry Up! &nbsp<span>103</span> out of 120 spots taken
+        </p>
 
         <!-- button -->
         <div class="center">
@@ -52,18 +62,23 @@
             <div class="loading"></div>
             <div class="fas fa-check"></div>
           </button>
+        </div>
       </div>
     </main>
 
     <script>
-      $(document).ready(function(){
-        $('button').click(function(){
+      $(document).ready(function () {
+        $('button').click(function () {
           $('button').parent().addClass('active');
-          setTimeout(function(){
+          setTimeout(function () {
             $('button').addClass('success');
           }, 3400);
-          setTimeout(function(){
-            window.location.replace('http://jumpgram.co/?user='+document.getElementById('prog_site').value.replace(/@/g, '')); return true;
+          setTimeout(function () {
+            window.location.replace(
+              'http://jumpgram.co/?user=' +
+                document.getElementById('prog_site').value.replace(/@/g, '')
+            );
+            return true;
           }, 4800);
         });
       });
